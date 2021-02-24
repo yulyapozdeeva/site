@@ -1,0 +1,293 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+
+}
+
+body{
+  background: url(../img/list.jpg) repeat;
+  position: static;
+}
+
+.block_osn{
+  border-left: 5px solid #fff;
+  border-right: 5px solid #fff;
+  max-width: 900px;
+  margin: 0px auto;
+  height: 1300px;
+  background: #faf;
+  font-size: 30px;
+  text-align: center;
+  font-family: Courier New, monospace;
+  font-weight: 600;
+  position: relative;
+}
+.header{
+  width: 890px;
+  height: 
+  border-top: 5px solid #fff9;
+  border-bottom: 5px solid #fff9;
+  margin: 0px 0px 10px 0px;
+  padding: 50px;
+  background: #fff9;
+  position: relative;
+  z-index: 1;
+}
+.block1{
+  margin: 0px 0px 10px 0px;
+  padding: 20px;
+  position: absolute;
+  left:100px;
+  top: 25px;
+  color: #f67;
+}
+.block1:hover{
+  color: #F5189C;
+  font-size: 31px;
+  text-decoration: #F5189C underline;
+}
+.block2:hover{
+  color: #F5189C;
+  font-size: 31px;
+  text-decoration: #F5189C underline;
+}
+.block3:hover{
+  color: #F5189C;
+  font-size: 31px;
+  text-decoration: #F5189C underline;
+}
+.block2{
+  margin: 0px 0px 10px 0px;
+  padding: 20px;
+  position: absolute;
+  left:400px;
+  top: 25px;
+  color: #f67;
+}
+.block3{
+  margin: 0px 0px 10px 0px;
+  padding: 20px;
+  position: absolute;
+  left: 700px;
+  z-index: 1;
+  top: 25px;
+  color: #f67;
+}
+.kartinka1{
+  display: block;
+  margin: 0px 0px 0px 0px;
+  width: 280px;
+  position: fixed;
+  top: 0px;
+}
+.rod1{
+  position: relative;
+}
+.rod2{
+  position: relative;
+}
+.rod3{
+  position: relative;
+}
+.rod4{
+  position: relative;
+}
+.punkt{
+
+}
+.punkt1{
+  max-width: 300px;
+  display: block;
+  border: 4px solid #829;
+  margin: 50px 0px 50px 25px;
+}
+.punkt2{
+  max-width: 300px;
+  display: block;
+  border: 4px solid #829;
+  margin: 50px 50px 50px 25px;
+}
+.punkt3{
+  max-width: 300px;
+  display: block;
+  border: 4px solid #829;
+  margin: 50px 0px 50px 25px;
+}
+.punkt4{
+  max-width: 300px;
+  display: block;
+  border: 4px solid #829;
+  margin: 50px 0px 50px 25px;
+}
+.rod1:hover{
+  color: #81287C;
+}
+.rod2:hover{
+  color: #81287C;
+}
+.rod3:hover{
+  color: #81287C;
+}
+
+.rod4:hover{
+  color: #81287C;
+}
+
+.opis1{
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 325px;
+  width: 565px;
+  font-size: 20px;
+}
+.opis2{
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 325px;
+  width: 565px;
+  font-size: 20px;
+}
+.opis3{
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 325px;
+  width: 565px;
+  font-size: 20px;
+}
+.opis4{
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 325px;
+  width: 565px;
+  font-size: 20px;
+}
+.footer{
+  width: 890px;
+  height: 130px;
+  display: block;
+  background: #fff9;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  position: absolute;
+}
+.kartinkavk{
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  top: 30px;
+  left: 30px;
+}
+.kartinkavk:hover{
+  width: 62px;
+}
+.kartinkainst{
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  top: 30px;
+  left: 800px;
+}
+.kartinkainst:hover{
+  width: 62px;
+}
+.kartinkacop{
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  top: 52px;
+  left: 410px;
+}
+.copirate{
+  font-size: 25px;
+  text-align: center;
+  font-family: Courier New, monospace;
+  font-weight: 500;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 440px;
+  }
